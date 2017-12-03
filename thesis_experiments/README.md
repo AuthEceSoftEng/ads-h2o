@@ -1,8 +1,8 @@
 # thesis_experiments
 
-This is a repository is for extract trainning metafeatures. 
+This is a repository is for extract training metafeatures. 
 
-In order to run the code and etract the trainning metafeatures replicate the following steps:
+In order to run the code and etract the training metafeatures replicate the following steps:
 
 
 * Download or clone the folder on your PC.
