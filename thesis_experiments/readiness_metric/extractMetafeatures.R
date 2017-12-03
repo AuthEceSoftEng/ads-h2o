@@ -2,7 +2,7 @@
 
 ##  --- set up --- 
 rm(list=ls())
-setwd("/Users/christina/Desktop/ads-master")
+setwd("/Users/christina/Documents/GitHub/ads-h2o")
 source("build_script.R")
 
 ##  --- generate testing metafeatures --- 
