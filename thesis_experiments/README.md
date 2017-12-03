@@ -18,5 +18,5 @@ setwd("/Users/christina/Documents/GitHub/ads-h2o")
 ```R
 repo <-"/Users/christina/Dropbox/AutoML/Datasets/Classification/dataset-name/processed"
 ```
-You can find the excel file containing training meatfeatures on [trainning metafeatures](https://github.com/issel-ml-squad/ads-h2o/blob/MFextractor_v1/thesis_experiments/readiness_metric/training_metafeatures.csv)
+You can find the excel file containing the training meatfeatures on [trainning metafeatures](https://github.com/issel-ml-squad/ads-h2o/blob/MFextractor_v1/thesis_experiments/readiness_metric/training_metafeatures.csv)
 
