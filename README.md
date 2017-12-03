@@ -8,9 +8,9 @@ Please go to the **thesis_experiments** folder open the **readiness_metrics** su
 
 # thesis_experiments
 
-This folder is for trainning metafeatures extraction.
+This folder is for training metafeatures extraction.
 
-In order to run the code and etract the trainning metafeatures replicate the following steps:
+In order to run the code and etract the training metafeatures replicate the following steps:
 
 
 * Download or clone the folder on your PC.
