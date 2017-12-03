@@ -9,7 +9,7 @@ In order to run the code and etract the training metafeatures replicate the foll
 * Open the **readiness_metrics** folder;  contains experiments for calculating the readiness of ADS for particular datasets.
 * Open the **extractMetafeatures.R** and change the following command pointing in the ads-h2o folder on your PC:
 ```R
-setwd("/Users/christina/Desktop/ads-master")
+setwd("/Users/christina/Documents/GitHub/ads-h2o")
 ```
 * Run the **extractMetafeatures.R** . 
 * The datasets allocate on the dropbox; no need to add the datasets under the workspace folder. 
