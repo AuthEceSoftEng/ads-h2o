@@ -28,3 +28,6 @@ setwd("/Users/christina/Desktop/ads-master")
 ```R
 repo <-"/Users/christina/Dropbox/AutoML/Datasets/Classification/dataset-name/processed"
 ```
+
+
+[Here](https://github.com/issel-ml-squad/ads-h2o/blob/master/thesis_experiments/readiness_metric/training_metafeatures.csv) you can find the training metafeatures of 131 datasets. 
