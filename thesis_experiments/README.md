@@ -1,6 +1,6 @@
 # thesis_experiments
 
-This is a repository is for extract trainning metafeatures. 
+This is a repository is for extract trainning metafeatures . 
 
 * Open the **readiness_metrics** folder;  contains experiments for calculating the readiness of ADS for particular datasets.
 * Run the ** extractMetafeatures.R ** . 
