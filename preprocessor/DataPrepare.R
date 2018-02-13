@@ -81,7 +81,7 @@ DataPrepare$methods(
         }
       }
     }
-    converted_dataset$Class  <- factor(converted_dataset$Class, levels = length(unique(converted_dataset$Class)))
+    #converted_dataset$Class  <- factor(converted_dataset$Class, levels = length(unique(converted_dataset$Class)))
     return(converted_dataset)
   },
   #' Find count features
