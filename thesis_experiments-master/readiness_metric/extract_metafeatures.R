@@ -34,7 +34,7 @@ for(i in 1:length(files_list)) {
   } 
 }
 rownames(total_metafeatures) <- files_list
-write.csv(total_metafeatures, "training_metafeatures_v1.csv")
+write.csv(total_metafeatures, "training_metafeatures_v2.csv")
 
 ## generate training metafeatures
 repo       <-"../thesis_experiments/data/datasets/training"
