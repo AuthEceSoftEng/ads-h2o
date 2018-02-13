@@ -71,7 +71,7 @@ DataPrepare$methods(
         temp <- converted_dataset[,i+counter]
         # replace NAs with zeros
         if(NA %in% temp) {
-         # temp                          <- factor(temp, levels=c(levels(temp), 0))
+         temp                          <- factor(temp, levels=c(levels(temp), 0))
           temp[is.na(temp)]             <- 0
           converted_dataset[,i+counter] <- temp
         }
@@ -81,7 +81,7 @@ DataPrepare$methods(
         }
       }
     }
-    converted_dataset$Class  <- factor(converted_dataset$Class, levels = length(unique(converted_dataset$Class)))
+    #converted_dataset$Class  <- factor(converted_dataset$Class, levels = length(unique(converted_dataset$Class)))
     return(converted_dataset)
   },
   #' Find count features

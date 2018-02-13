@@ -2,7 +2,7 @@
 
 ##  --- set up --- 
 rm(list=ls())
-setwd("C:/Users/christina/Desktop/AutoML/ads-master v2")
+setwd("C:/Users/christina/Documents/GitHub/ads-h2o")
 source("build_script.R")
 
 ##  --- generate testing metafeatures --- 
@@ -34,7 +34,7 @@ for(i in 1:length(files_list)) {
   } 
 }
 rownames(total_metafeatures) <- files_list
-write.csv(total_metafeatures, "training_metafeatures_v1.csv")
+write.csv(total_metafeatures, "training_metafeatures_v2.csv")
 
 ## generate training metafeatures
 repo       <-"../thesis_experiments/data/datasets/training"
