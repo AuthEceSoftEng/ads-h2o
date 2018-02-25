@@ -23,7 +23,7 @@ repo       <-"/Users/christina/Dropbox/AutoML/Datasets/Classification/dataset-na
 files_list <- list.files(path = repo,  pattern="*.csv", recursive = TRUE)
 
 
-for(i in 7: length(files_list)) {
+for(i in 1: length(files_list)) {
   dataset_path <- files_list[[i]]
   dataset_name <- substr(dataset_path,1,nchar(dataset_path)-4)
   print("Importing data.......")
@@ -36,7 +36,7 @@ for(i in 7: length(files_list)) {
   train <- parts[[1]]
   test <- parts[[2]]
   RFd <- h2o.randomForest(predictors, response, train, model_id="RF_defaults", nfolds=10,
-                          fold_assignment = "Modulo", keep_cross_validation_predictions = T,max_runtime_secs = 120, ntrees = 1000,max_depth = 40)
+                          fold_assignment = "Modulo", keep_cross_validation_predictions = T,max_runtime_secs = 120, ntrees = 1000)
   model.h2o = RFd
   
   best_dl_perf <- h2o.performance(model = model.h2o, 
